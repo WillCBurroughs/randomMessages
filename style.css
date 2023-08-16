@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+}
+
+html {
+    display: table;
+    width: 100%; 
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: antiquewhite;
+    text-align: center; 
+    font-family: sans-serif;
+}
+
+#title{
+    font-size: 4rem;
+    color: black;
+    margin: 20px auto; 
+    transform: translateY(-250%);
+}
+
+#Message{
+    font-size: 2rem;
+    color: rgb(56, 55, 55);
+    margin: 0px auto; 
+    transform: translateY(-200%);
+}
+
+
+
+#Generate-Text {
+    margin-top: 20px; 
+    border-radius: 1rem;
+    width: 15rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: rgb(26, 76, 193);
+    color:white;
+}
